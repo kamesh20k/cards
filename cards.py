@@ -10,6 +10,6 @@ deck = list(itertools.product(range(1,14),['Spade','Heart','Diamond','Club']))
 random.shuffle(deck)
 
 # draw five cards
-print("You got:")
+print("You got this:")
 for i in range(4):
     print(deck[i][1], "of", deck[i][2])
