@@ -11,5 +11,5 @@ random.shuffle(deck)
 
 # draw five cards
 print("You got:")
-for i in range(5):
+for i in range(4):
     print(deck[i][1], "of", deck[i][2])
